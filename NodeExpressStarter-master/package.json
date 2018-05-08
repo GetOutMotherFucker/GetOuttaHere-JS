@@ -1,0 +1,14 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "A Coffee website made with Node & ExpressJS course on Lynda.com",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "author": "Martin Kierkegaard",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
