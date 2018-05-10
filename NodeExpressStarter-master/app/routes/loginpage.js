@@ -4,8 +4,10 @@ var router = express.Router();
 router.get('/loginpage', function(req, res) {
 
   res.render('loginpage', {
-    pageTitle: 'loginpage',
+    pageTitle: 'Login',
     pageID: 'loginpage'
   });
 
 });
+
+module.exports = router;
